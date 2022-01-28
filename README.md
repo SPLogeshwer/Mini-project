@@ -1,29 +1,3 @@
-CRICKET SCORE CARD DISPLAY
-#include<stdio.h>
-struct cricketer
-{
-    int runs,wickets;
-    char name[25];
-}player[100];
- 
-void main()
-{
-    int i,n;
-    printf("Enter the no of cricket players\n");
-    scanf("%d",&n);
-  if(n<=0) 
-    printf("Enter valid numer of players");
-  else{
-   printf("Enter player info as name , runs scored , wickets taken\n");
-    for(i=0;i<n;i++)
-    {
-        scanf("%s %d %d",player[i].name,&player[i].runs,&player[i].wickets);
-    }
-    printf("\nNAME\t\tRUNS\t\tWICKETS\n");
-    for(i=0;i<n;i++)
-    {
-        printf("%s\t\t%d\t\t%d\n",player[i].name,player[i].runs,player[i].wickets);
-    }}
-}
-
+CRICKET SCORE CARD DISPLAY using c language
+<img width="735" alt="Screenshot 2022-01-28 at 12 16 47 PM" src="https://user-images.githubusercontent.com/93675280/151500724-bc84907a-60f3-40e2-acc2-15dd353d0c5e.png">
 
